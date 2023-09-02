@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*color palette*/
+/*
+  Hex	       RGB
+#24292e	(36,41,46)
+#2b3137	(43,49,55)
+#fafbfc	(250,251,252)
+#ffffff	(255,255,255)
+#2dba4e	(45,186,78)
+*/
+html{
+  scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    background-color: #2b3137;
+    min-height: 100vh;
+}
+
+.testimonial-container {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  width: 300px;
+}
+
+.testimonial-arrow {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -20px; /* This centers the arrow */
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #f4f4f4;
+}
+
+.testimonial-text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+}

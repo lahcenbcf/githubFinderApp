@@ -1,0 +1,90 @@
+.wrapper{
+    background-color:#fafbfc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.myInterests{
+    position: relative;
+    z-index: 0;
+}
+.myInterests::after{
+content: "";
+position: absolute;
+height: 2px;
+width: 60px;
+left: 0;
+bottom: 0;
+transition: height .4s ease-in-out;
+background-color: #2dba4e;
+z-index: -1;
+}
+.myInterests:hover::after{
+    height: 20px;
+    opacity: 0.7;
+}
+.right{
+    align-self: flex-end;
+    z-index: 0;
+}
+.right .imageWrapper{
+    width: 200px;
+    position: relative;
+    height: 300px;
+    z-index: 0;
+}
+.right .imageWrapper img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.right .imageWrapper::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(45,186,78,0.6);
+    bottom: 20%;
+    left: -10%;
+    z-index: -1;
+}
+
+.right .imageWrapper::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    top: 20%;
+    right: -10%;
+    z-index: -1;
+}
+/*.layer1{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(45,186,78,0.6);
+    bottom: 30%;
+    left: -10%;
+    z-index: -1;
+    /*transform: rotate(90deg) translateX(10%);*/
+/*
+/*
+.layer2{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.6);
+    left: 40%;
+    bottom: -20%;
+    z-index: -1;
+}
+*/
+@media (max-width:400px) {
+    .right{
+        border: solid 1px;
+    }
+  
+    .layer1,.layer2{
+        width: 140px;
+        height: 200px;
+    }
+}
