@@ -1,7 +1,7 @@
 {
   "name": "githubfinder",
   "private": true,
-  "homepage":"https://lahcenbcf.github.io/githubFinderApp",
+  "homepage":"https://lahcenbcf.github.io/githubFinderApp/",
   "version": "0.0.0",
   "type": "module",
   "resolutions": {
