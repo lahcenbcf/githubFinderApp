@@ -13,7 +13,7 @@ function App() {
   return (
     <GithubProvider>
     <AlertProvider>
-    <Router>
+    <Router basename='/githubFinderApp'>
     <Routes>
         <Route path='/' element={<AppLayout/>}>
         <Route path="/" element={<Home />} />
