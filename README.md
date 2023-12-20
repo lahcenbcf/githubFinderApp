@@ -1,8 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GithubFinderApp
 
-Currently, two official plugins are available:
+GitHub FinderApp is a powerful tool that simplifies the process of discovering GitHub users and exploring their repositories. With a user-friendly interface, this application allows you to effortlessly search for GitHub profiles, providing detailed information about users and showcasing a list of their repositories. Whether you're looking to connect with fellow developers or explore the projects of your favorite coders, GitHub FinderApp streamlines the experience, making it easy to navigate the vast world of GitHub and stay connected with the open-source community.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Authors
+
+- [@lahcenbcf](https://www.github.com/lahcenbcf)
+
+
+## 🚀 About Me Hassane BENCHAREF
+I'm a full stack web developer...
+
+
+## 🔗 Links
+[![linkedin](https://www.linkedin.com/in/hassane-bencharef-2b2667248/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B98SqTONmQne4K7jT%2BPclpg%3D%3D)](https://www.linkedin.com/)
+
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+MongoDB,ExpressJS
+Redux
+
+## Screenshots
+
+![App Screenshot](https://private-user-images.githubusercontent.com/107793995/292020804-4e7c899a-21b9-410d-9697-ae497632fa45.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMxMDY5ODYsIm5iZiI6MTcwMzEwNjY4NiwicGF0aCI6Ii8xMDc3OTM5OTUvMjkyMDIwODA0LTRlN2M4OTlhLTIxYjktNDEwZC05Njk3LWFlNDk3NjMyZmE0NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQyMTExMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZWVkMjJiNmZiNjE4MDUwNzk3YzU5MDVkMWRiMGQwMGJkY2M2MTliYzM5NDllYWU2YTYzMTE0MDBmYmNmMzVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lTFe0IJqTAH5Mu5Gb0OkQzLhpSjv0syhqyxuflk8ygk
+)
+![App Screenshot](https://private-user-images.githubusercontent.com/107793995/292020813-6dd56695-f401-485b-9b9a-929a3ba467a0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMxMDY5ODYsIm5iZiI6MTcwMzEwNjY4NiwicGF0aCI6Ii8xMDc3OTM5OTUvMjkyMDIwODEzLTZkZDU2Njk1LWY0MDEtNDg1Yi05YjlhLTkyOWEzYmE0NjdhMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQyMTExMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYjI2M2EwZTA3MWQwYWY5MWIxNGFkZjI4YWQ5YWMwNzMxODBhMWJhYTRlZTBmM2RhNTlhYzZmMjQ1OGMxNzU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UvHSWl5tXDp6pzt9eWn3qSSn72QlKjOvK9VMhMvOlfc
+)
+![App Screenshot](https://private-user-images.githubusercontent.com/107793995/292020818-9fcb0d78-e800-477f-9250-9bfa0541f055.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMxMDY5ODYsIm5iZiI6MTcwMzEwNjY4NiwicGF0aCI6Ii8xMDc3OTM5OTUvMjkyMDIwODE4LTlmY2IwZDc4LWU4MDAtNDc3Zi05MjUwLTliZmEwNTQxZjA1NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQyMTExMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04OGE0ODM1YWZkMTY1NDU0Y2Y0OTVmZmZjYWZjYzU0OGFhZjEwNThhOWVhMjU4Yjk5M2EwYjhmZmU2NDIwN2NmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.LoC1ig-e5qQmDcmdUYxW0Di-I9rhRvHLP0eZiPMpVK0
+)
+
+
